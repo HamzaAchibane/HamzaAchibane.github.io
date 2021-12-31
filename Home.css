@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.contactsus :hover{
+    color: black;
+}
+header{
+    background-color: #D81921;
+}
+.webheader{
+    padding: 20px;
+    height: 80px;
+    display: flex;
+}
+.socialicons{
+    text-align: right;
+    flex-grow: 1;
+}
+.socialicons i{
+    color: white;
+    margin: 0 7px;
+
+}
+.socialicons1 i{
+    color: white;
+    margin: 30px 7px;
+    margin-left: 40px;
+    margin-right: 50;
+
+
+}
+nav ul{
+    margin: 20px 0 0 0;
+}
+nav li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 100px;
+}
+h2 {
+    color: #D81921;
+}
+.foryou{
+   position: absolute;
+   bottom: 0;
+
+}
+.yahya{
+    position: relative;
+
+}
+@media(min-width:1000) {
+    .naji{
+        height: 10vh;
+        width: 50%;
+    }
+}
+.scale:hover{
+    transform: scale(1.02);
+}
+.contactsus {
+    color: white;
+}
+.btn-bo-position{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.btn-bo{
+    font-size: 30px;
+    color: #212529 !important;
+}
